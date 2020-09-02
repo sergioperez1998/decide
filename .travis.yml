@@ -18,5 +18,7 @@ script:
 - python ./manage.py test --keepdb
 deploy:
   provider: heroku
-  app: primer-despligue-test
+  app: segundo-intento-test
   strategy: git
+  api_key:
+    secure: QM8XxwJefvwD6xoT3pgPPSexfntKpGabSTb/lB8Vn85ndeaTX7jsRirqUL7XSmjzRbnUcdIpcrV/IxUGN6Azak0nhZNfEEIK42NwbQ3BUKngkLmAE33SXOLCWT+/I1EosQ75GHhPp6h8f/hyXO8O8tauw5SgnHTD7q5JpNAt3Qc7ru/zHNHzBCAbSolMaDoru7Wju1g+tR2IcwAsPx3Ukskex7vewwIEHQmgPflkFf7YiqEI7arWxnRtTyEpYvn9bwtrDFw2q7eTkZo9zhhbRzJaypQ5VYUybuaUsUuV+m50VYqAA9xBXa4zR1oJoanQVU2EzLL0CjSX14KL6uVNwYi7qVAWhRpkAJ+cFqW5QIbgmTvT/bZGrPJ89RoYeim0WIL8b53LNhVlhUv10E1Z22CGSt6KDuUwuuN41N4D65a+wSN68PfIq9N+hFbeKtr1sgTqOKgvCOTgQ6OsJSgkDwpqVgDuig9iKOOmskpQeMqo3YynQsTP3q+eyVBg0lqlRl5vGr26icaGhJYyerX3c/mpGVhjwoRKQ+D9NM2oXJZEECEmSXH1H0nuBZ8lo+N73ILEeqXDhz/AWHiJUyC8LH8XwJA2odYpMJW3pYCWBmifmM0RGDPHd8yHrWInfU6Y6DsT+e7+NX7cffLuKMcE0jXSc+33RXenWTRYkhu0oCU=
