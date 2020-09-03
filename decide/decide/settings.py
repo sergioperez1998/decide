@@ -74,15 +74,15 @@ MODULES = [
 BASEURL = 'https://segundo-intento-test.herokuapp.com'
 
 APIS = {
-    'authentication': BASEURL,
-    'base': BASEURL,
-    'booth': BASEURL,
-    'census': BASEURL,
-    'mixnet': BASEURL,
-    'postproc': BASEURL,
-    'store': BASEURL,
-    'visualizer': BASEURL,
-    'voting': BASEURL,
+    'authentication': 'https://segundo-intento-test.herokuapp.com',
+    'base': 'https://segundo-intento-test.herokuapp.com',
+    'booth': 'https://segundo-intento-test.herokuapp.com',
+    'census': 'https://segundo-intento-test.herokuapp.com',
+    'mixnet': 'https://segundo-intento-test.herokuapp.com',
+    'postproc': 'https://segundo-intento-test.herokuapp.com',
+    'store': 'https://segundo-intento-test.herokuapp.com',
+    'visualizer': 'https://segundo-intento-test.herokuapp.com',
+    'voting': 'https://segundo-intento-test.herokuapp.com',
 }
 
 MIDDLEWARE = [
