@@ -181,7 +181,8 @@ DEFAULT_VERSION = 'v1'
 try:
     from local_settings import *
 except ImportError:
-    print("local_settings.py not found")
+    #print("local_settings.py not found")
+    pass
 
 # loading jsonnet config
 if os.path.exists("config.jsonnet"):
