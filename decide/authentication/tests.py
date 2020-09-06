@@ -128,3 +128,6 @@ class AuthTestCase(APITestCase):
             sorted(list(response.json().keys())),
             ['token', 'user_pk']
         )
+
+    def test_basic_addition(self):
+        self.assertEqual(1 + 1, 3)
